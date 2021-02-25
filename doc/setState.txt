@@ -1,0 +1,31 @@
+class: classComponentUpdater
+
+
+Component.prototype.setState-->this.updater.enqueueSetState-->get-->null
+                                                           -->requestCurrentTimeForUpdate-->null
+                                                           -->requestCurrentSuspenseConfig-->null
+                                                           -->computeExpirationForFiber-->null
+                                                           -->createUpdate-->getCurrentPriorityLevel-->unstable_getCurrentPriorityLevel-->null
+                                                           -->enqueueUpdate-->null
+                                                           -->scheduleUpdateOnFiber-->checkForNestedUpdates-->null
+                                                                                   -->warnAboutRenderPhaseUpdatesInDEV-->null
+                                                                                   -->markUpdateTimeFromFiberToRoot-->markRootUpdatedAtTime-->null
+                                                                                   -->checkForInterruption-->null
+                                                                                   -->recordScheduleUpdate-->null
+                                                                                   -->getCurrentPriorityLevel-->unstable_getCurrentPriorityLevel-->null
+                                                                                   -->ensureRootIsScheduled-->getNextRootExpirationTimeToWorkOn-->isRootSuspendedAtTime-->null
+                                                                                                           -->requestCurrentTimeForUpdate-->null
+                                                                                                           -->inferPriorityFromExpirationTime-->null
+                                                                                                           -->scheduleSyncCallback-->unstable_scheduleCallback-->push(exports.unstable_now)-->null
+                                                                                                                                                              -->timeoutForPriorityLevel-->null
+                                                                                                                                                              -->push-->siftUp(while循环)-->null
+                                                                                                                                                              -->markTaskStart-->null
+                                                                                                                                                              -->_requestHostCallback-->postMessage(async)-->performWorkUntilDeadline-->push(不知道咋回事)-->null
+                                                                                                                                                                                                                                     -->flushWork-->markSchedulerUnsuspended-->null
+                                                                                                                                                                                                                                                 -->workLoop(循环执行后面)-->advanceTimers-->peek-->null
+                                                                                                                                                                                                                                                                        -->pop-->null
+                                                                                                                                                                                                                                                                        -->peek-->null
+                                                                                                                                                                                                                                                 -->push(依赖注入)-->null
+                                                                                                                                                                                                                                                 -->markSchedulerSuspended-->null
+                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                 
