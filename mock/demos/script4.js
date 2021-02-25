@@ -1,1 +1,0 @@
-console.log("external script4 with async========>")

@@ -1,1 +1,0 @@
-console.log("external script1 without async and defer========>")
