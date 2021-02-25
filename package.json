@@ -182,5 +182,5 @@
     ]
   },
   "proxy": "http://localhost:9000",
-  "homepage": "https://tigerwfh.github.io"
+  "homepage": "."
 }
